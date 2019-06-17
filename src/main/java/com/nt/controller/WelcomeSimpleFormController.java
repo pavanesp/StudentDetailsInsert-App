@@ -36,7 +36,7 @@ public class WelcomeSimpleFormController extends SimpleFormController{
 		StudentCommand cmd=null;
 		cmd=(StudentCommand)command;
 		StudentDto dto=null;
-		
+		System.out.println("hello");
 		dto=new StudentDto();
 		
 		BeanUtils.copyProperties(cmd, dto);
